@@ -1,12 +1,14 @@
 import React from "react";
 import "./App.css";
+import Timer from "./Timer";
 
 import WordCard from "./WordCard";
 
 function App() {
  return (
- <div>
- <WordCard value="hello"/>
+ <div className="game">
+ <WordCard value="MSSPSU"/>
+ <Timer />
  </div>
  );
 }

@@ -32,7 +32,6 @@ color: white;
  .ready {
   width: 15rem;
   padding: 2px;
-
   text-align: center;
   margin: auto;
   color: white;
@@ -41,5 +40,48 @@ color: white;
 background: #89fa00;
 box-shadow: inset 20px 20px 60px #74d500,
             inset -20px -20px 60px #9eff00;
+  cursor: pointer;
  }
+ .timer {
+   width:100%;
+   height:100vh;
+
+   display:flex;
+   justify-content:center;
+ }
+ .container {
+  padding: 100px;
+ }
+ .timer_container{
+  background-color:rgb(255, 255, 255);
+  width:20vw;
+  padding:1rem 6rem;
+  border-radius:1rem;
+  box-shadow:01rem 1rem -0.7rem rgb(0,0,0,0.4);
+  margin-top: -2rem;
+}
+.stop,.restart {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  background-color: #5dff62;
+  width: 130px;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+
+}
+.stop {
+    margin-left: 15px;
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+.game {
+  background-color: #8dabfd;
+}
  
