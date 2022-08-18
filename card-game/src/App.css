@@ -3,12 +3,43 @@
   text-align: center;
   width: 3em;
   font-size: 2em;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   margin: 1em;
   user-select: none;
+  border-radius: 50px;
+background: #ee9696;
+box-shadow:  5px 5px 20px #ca8080,
+             -5px -5px 20px #ffadad;
+          
+color: white;
  }
  .activeCard {
   color: red;
   background: pink;
+ }
+ .button {
+  width: 20rem;
+  padding: 4px;
+  text-align: center;
+  background-color: #ffadad;
+  font-size: 3rem;
+  border-radius: 50px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,111,1) 27%, rgba(76,71,162,1) 49%, rgba(183,59,164,1) 84%, rgba(0,212,255,1) 100%);
+  margin: 4rem;
+
+    color: white;
+ }
+ .ready {
+  width: 15rem;
+  padding: 2px;
+
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-size: 25px;
+  border-radius: 50px;
+background: #89fa00;
+box-shadow: inset 20px 20px 60px #74d500,
+            inset -20px -20px 60px #9eff00;
  }
  
