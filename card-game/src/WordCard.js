@@ -16,7 +16,6 @@ const prepareStateFromWord = (given_word) => {
 
 export default function WordCard(props) {
   const [state, setState] = useState(prepareStateFromWord(props.value));
-  const [ready, setReady] = useState("Click me to start!!");
   const activationHandler = (c) => {
     console.log(`${c} has been activated.`);
 
@@ -44,15 +43,7 @@ export default function WordCard(props) {
           attempt={state.attempt}
         />
       ))}
-      <div
-        className="ready"
-        onClick={() => {
-          setReady("Game started");
-          console.log("Game started and please enjoy ^^");
-        }}
-      >
-        {ready}
-      </div>
+     
     </div>
   );
 }
