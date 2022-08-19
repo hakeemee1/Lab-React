@@ -19,6 +19,7 @@ function App() {
         onClick={() => {
           setReady("Game started");
           console.log("Game started and please enjoy ^^");
+          handleClick()
         }}
       >
         {ready}
