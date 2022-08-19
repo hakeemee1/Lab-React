@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="game">
-      <WordCard value="MSSPSU" />
+      <WordCard value="psuhatyai" />
       <button
         className="ready"
         onClick={() => {
